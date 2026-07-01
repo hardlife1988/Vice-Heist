@@ -1,9 +1,4 @@
 
----
-
-### 2. `math/game_config.py`
-
-```python
 import os
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
@@ -90,7 +85,7 @@ class GameConfig(Config):
                             "scatter_triggers": {3: 20, 4: 10, 5: 2},
                             "mult_values": {
                                 self.basegame_type: {1: 1},
-                                self.freegame_type": {2: 100, 3: 80, 4: 50, 5: 20, 10: 10, 20: 5, 50: 1},
+                                self.freegame_type: {2: 100, 3: 80, 4: 50, 5: 20, 10: 10, 20: 5, 50: 1},
                             },
                             "force_wincap": False,
                             "force_freegame": True,
